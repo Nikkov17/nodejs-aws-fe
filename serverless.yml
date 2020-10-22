@@ -1,0 +1,16 @@
+service: rs-task-2-manual
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+region: eu-west-1
+
+plugins:
+  - serverless-finch
+
+custom:
+  client:
+    bucketName: rs-task-2-manual
+    distributionFolder: build
