@@ -57,7 +57,10 @@ export default function Products() {
                 {formatAsPrice(product.price)}
               </Typography>
               <Typography>
-                Year: {product.year}
+                Description: {product.description}
+              </Typography>
+              <Typography>
+                Count: {product.count}
               </Typography>
             </CardContent>
             <CardActions>
